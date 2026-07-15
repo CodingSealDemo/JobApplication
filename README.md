@@ -1,6 +1,0 @@
-Features:
-- **Authentication & Authorization**: High-security session tracking. Custom restricted signup utilizing the registration key 'APPLY-TRACK-2026'. Passwords are hashed with `PASSWORD_BCRYPT`. Each user has strictly isolated records.
-- **Privacy & Encryption**: All job application records (Job Title, Company Name, Contact Person, Email, Date of Contact, Status, Notes) are symmetrically encrypted with AES-256-CBC at database level, preventing leakage in the event of a DB breach.
-- **Dashboard (Page 1)**: Modern, clean layout displaying all open/active job applications (excluding 'Declined' or 'Ghosted'). Items with dates older than 14 days display a prominent red overdue badge and accent highlight to prompt checking-in.
-- **Form Submission (Page 2)**: Form allowing seamless registration of new application details (includes Job Title).
-- **Searchable List (Page 3)**: Contains a highly efficient list of all items. Features dynamic, real-time client-side search and filtering inputs on every column (overcoming database encryption performance limits). Includes an interactive inline modal edit form to easily modify application states and details, and instant deletion confirmation.
